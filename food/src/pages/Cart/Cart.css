@@ -1,0 +1,139 @@
+/* Make sure to reset padding for consistency */
+.whole-cart-view {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;;
+}
+
+.topstructure {
+    display: flex;
+    justify-content: space-between;
+    color: #434847;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: #434847;
+    margin-top: 10px;
+}
+
+.each-rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.each-struct {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-size: 15px;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.each-struct img {
+    width: 70px;
+    height: 50px;
+    object-fit: cover; /* Space between image and text */
+}
+
+.each-struct p{
+    width:130px;
+    font-size: 15px;
+}
+
+.each-struct button {
+    background-color: #f44;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.total-cost{
+    display: flex;
+    justify-content: space-between;
+}
+.otherside{
+    width:400px;
+    height:auto;
+    padding:15px;
+    margin-top:30px;
+    
+}
+.total-cost h4{
+    color: #262626;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    color: #262626;
+    padding:10px;
+}
+.delivery{
+    color: #262626;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    color: #262626;
+    padding:10px;
+    font-weight: 600;
+}
+.buttonpay{
+    margin-top: 18px;
+}
+.buttonpay button{
+    width:200px;
+    border: 1px solid transparent;
+    padding:17px;
+    outline :none;
+    text-decoration: none;
+    color:#fff;
+    background: tomato;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+
+.coupon-code{
+    width:400px;
+    
+}
+.coupon-code p{
+    color: #262626;
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+}
+.submit{
+    display: flex;
+    width:100%;
+}
+.submit input{
+    outline: none;
+    border:1px solid #000;
+    background: #a6a8a7;
+    color: #000;
+    padding:10px;
+}
+.submit input::placeholder{
+    color: #000;
+}
+.submit button{
+    outline: none;
+    border:1px solid #000;
+    background: #000;
+    color: #fff;
+    padding:10px;
+}
+
+

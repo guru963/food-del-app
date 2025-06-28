@@ -1,0 +1,53 @@
+.whole-delivery-website{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+
+}
+.delivery-container {
+    width: 500px;
+    
+  }
+  
+  .delivery-container h2 {
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .delivery-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .delivery-form .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .delivery-form input,
+  .delivery-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .delivery-form textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  .delivery-form button {
+    padding: 12px;
+    font-size: 1rem;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }

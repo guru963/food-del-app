@@ -1,0 +1,114 @@
+.whole-display-page{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 30px;;
+}
+.display-menu-items{
+    display: flex;
+    justify-content: flex-start;
+    gap:48px;
+    flex-wrap: wrap;
+}
+.each-item-name{
+    width:220px;
+    height:auto;
+    background-color: white; /* clean background */
+    border-radius: 8px; /* slight rounding */
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08); /* very light shadow */
+    transition: transform 0.15s ease, box-shadow 0.15s ease; /* smooth, fast */
+    overflow: hidden;
+    margin-bottom: 27px;
+    position: relative;
+
+}
+
+.each-item-name:hover {
+    transform: translateY(-2px); /* very minor lift */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12); /* slightly stronger but still minimal */
+
+}
+.image_dish{
+    width:100%;
+}
+.addicon{
+    position:absolute;
+    border:0;
+    background-color: transparent;
+    width:30px;
+    text-decoration: none;
+    top: 10px;  /* Adjust this for vertical placement */
+    right: 10px;
+    z-index: 3;
+}
+.removeicon{
+    display: none;
+}
+
+.addsubbutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+    padding: 4px 6px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.85); /* semi-transparent white */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+    border: 1px solid #ddd;
+}
+
+.addgreenicon {
+    border: none;
+    background-color: transparent;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.addgreenicon img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.addsubbutton p {
+    margin: 0 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+.addicon img{
+    width:30px;
+}
+.flexstars{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-weight: 600;
+}
+.flexstars img{
+    width:70px;
+    height:11px;
+    object-fit: cover;
+}
+.descrip{
+    padding:10px;
+    color:#434847;
+    font-size: 15px;
+}
+.price{
+    color: tomato;
+    padding-left:10px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.h4tag{
+    color: #262626;
+    font-size: 25px;
+}
